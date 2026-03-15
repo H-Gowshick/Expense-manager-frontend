@@ -12,7 +12,7 @@ export const storeTokens = async (accessToken, refreshToken) => {
     }
 };
 
-// Get access token
+// Get access token wqewq
 export const getAccessToken = async () => {
     try {
         return await AsyncStorage.getItem('accessToken');
